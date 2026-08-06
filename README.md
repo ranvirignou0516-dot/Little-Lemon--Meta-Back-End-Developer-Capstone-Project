@@ -64,7 +64,7 @@ DATABASES = {
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/Little-Lemon-Back-End-Developer-Capstone-Project.git
+git clone https://github.com/ranvirignou0516-dot/Little-Lemon--Meta-Back-End-Developer-Capstone-Project
 ```
 ### 2. Create Virtual Environment
 ```bash
@@ -190,15 +190,15 @@ Little-Lemon-Back-End-Developer-Capstone-Project
 ### Token Login
 
 
-![Token Login](screenshots/Authentication/token-login.png)
+![Token Login](screenshots/1. Authorization/1 -Token Login.png)
 
 ### Current User
 
-![Current User](screenshots/Authentication/user-me.png)
+![Current User](screenshots/1. Authentication/2 -User Me.png)
 
 ### Logout
 
-![Logout](screenshots/Authentication/token-logout.png)
+![Logout](screenshots/Authentication/3 -Token Logout.png)
 
 
 2. Menu Section
@@ -206,27 +206,27 @@ Little-Lemon-Back-End-Developer-Capstone-Project
 ## Menu APIs
 ### Menu List
 
-![Menu List](screenshots/Menu/menu-list.png)
+![Menu List](screenshots/Menu/1 -Menu List.png)
 
 ### Single Menu
 
-![Single Menu](screenshots/Menu/single-menu.png)
+![Single Menu](screenshots/Menu/2 -Single Menu.png)
 
 ### Create Menu
 
-![Create Menu](screenshots/Menu/create-menu.png)
+![Create Menu](screenshots/Menu/3 -Create Menu.png)
 
 ### Update Menu (PUT)
 
-![Update Menu PUT](screenshots/Menu/update-menu-put.png)
+![Update Menu PUT](screenshots/Menu/4 -Update Menu(PUT).png)
 
 ### Update Menu (PATCH)
 
-![Update Menu PATCH](screenshots/Menu/update-menu-patch.png)
+![Update Menu PATCH](screenshots/Menu/5 -Update Menu(PATCH).png)
 
 ### Delete Menu
 
-![Delete Menu](screenshots/Menu/delete-menu.png)
+![Delete Menu](screenshots/Menu/6 -Delete Menu(DELETE).png)
 
 
 3. Booking Section
@@ -235,27 +235,27 @@ Little-Lemon-Back-End-Developer-Capstone-Project
 
 ### Booking List
 
-![Booking List](screenshots/Booking/booking-list.png)
+![Booking List](screenshots/Booking/1 -Booking List(GET).png)
 
 ### Single Booking
 
-![Single Booking](screenshots/Booking/single-booking.png)
+![Single Booking](screenshots/Booking/2 -Single Booking(GET).png)
 
 ### Create Booking
 
-![Create Booking](screenshots/Booking/create-booking.png)
+![Create Booking](screenshots/Booking/3 -Create Booking(POST).png)
 
 ### Update Booking (PUT)
 
-![Update Booking PUT](screenshots/Booking/update-booking-put.png)
+![Update Booking PUT](screenshots/Booking/4 -Update Booking(PUT).png)
 
 ### Update Booking (PATCH)
 
-![Update Booking PATCH](screenshots/Booking/update-booking-patch.png)
+![Update Booking PATCH](screenshots/Booking/5 -Update Booking(PATCH).png)
 
 ### Delete Booking
 
-![Delete Booking](screenshots/Booking/delete-booking.png)
+![Delete Booking](screenshots/Booking/6 -Delete Booking(DEL).png)
 
 
 4. Django Admin
@@ -264,42 +264,42 @@ Little-Lemon-Back-End-Developer-Capstone-Project
 
 ### Admin Dashboard
 
-![Admin Dashboard](screenshots/Admin/admin-dashboard.png)
+![Admin Dashboard](screenshots/Admin/1 -Dashboard Recent Actions.png)
 
 ### Users
 
-![Users](screenshots/Admin/users.png)
+![Users](screenshots/Admin/2 -Users.png)
 
 ### Manager Group
 
-![Manager Group](screenshots/Admin/manager-group.png)
+![Manager Group](screenshots/Admin/3 -Manager Group.png)
 
 ### User Assigned to Manager
 
-![User Manager](screenshots/Admin/user-manager.png)
+![User Manager](screenshots/Admin/4 -Users - Managers - Assigned.png)
 
 ### Menu
 
-![Menu Admin](screenshots/Admin/menu-admin.png)
+![Menu Admin](screenshots/Admin/5 -Menu Admin.png)
 
 ### Booking
 
-![Booking Admin](screenshots/Admin/booking-admin.png)
+![Booking Admin](screenshots/Admin/6 -Booking Admin.png)
 
 
 5. Terminal
 
-![Makemigrations](screenshots/Terminal/makemigrations.png)
+![Makemigrations](screenshots/Terminal/1. makemigrations.png)
 
-![Migrate](screenshots/Terminal/migrate.png)
+![Migrate](screenshots/Terminal/2. migrate.png)
 
-![Show Migrations](screenshots/Terminal/showmigrations.png)
+![Show Migrations](screenshots/Terminal/3. showmigrations.png)
 
-![Create Superuser](screenshots/Terminal/createsuperuser.png)
+![Create Superuser](screenshots/Terminal/4. createsuperuser.png)
 
-![Test](screenshots/Terminal/test.png)
+![Test](screenshots/Terminal/5. test.png)
 
-![Runserver](screenshots/Terminal/runserver.png)
+![Runserver](screenshots/Terminal/6. runserver.png)
 
 6. Repository URL
 
