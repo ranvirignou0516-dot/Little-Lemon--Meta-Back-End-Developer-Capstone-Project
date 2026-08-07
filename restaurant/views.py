@@ -8,6 +8,10 @@ from .serializers import MenuSerializer, BookingSerializer
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.response import Response
 from rest_framework.authtoken.models import Token
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'index.html')
 
 # Menu List (GET, POST)
 class MenuItemsView(generics.ListCreateAPIView):
