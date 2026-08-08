@@ -199,7 +199,7 @@ DATABASES = {
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/ranvirignou0516-dot/Little-Lemon-Meta-Back-End-Developer-Capstone-Project.git
+git clone https://github.com/ranvirignou0516-dot/Little-Lemon--Meta-Back-End-Developer-Capstone-Project.git
 ```
 
 ### 2. Create Virtual Environment
