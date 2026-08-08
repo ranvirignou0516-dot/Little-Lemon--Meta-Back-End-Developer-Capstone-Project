@@ -303,7 +303,7 @@ Little-Lemon-Back-End-Developer-Capstone-Project
 
 6. Repository URL
 
-git clone https://github.com/ranvirignou0516-dot/Little-Lemon-Meta-Back-End-Developer-Capstone-Project.git
+git clone https://github.com/ranvirignou0516-dot/Little-Lemon--Meta-Back-End-Developer-Capstone-Project.git
 
 ## Author
 
