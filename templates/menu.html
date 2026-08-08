@@ -1,0 +1,78 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Little Lemon - Menu</title>
+
+<link
+    rel="shortcut icon"
+    type="image/png"
+    href="{% static 'img/favicon.ico' %}"
+>
+
+<link
+    rel="stylesheet"
+    href="{% static 'css/style.css' %}"
+>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text:wght@500&display=swap"
+    rel="stylesheet"
+>
+```
+
+</head>
+
+<body>
+
+<header>
+    <h1>Little Lemon</h1>
+
+```
+<nav>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'menu-page' %}">Menu</a>
+    <a href="{% url 'booking-page' %}">Book</a>
+</nav>
+```
+
+</header>
+
+<main>
+    <section>
+        <h1>Our Menu</h1>
+
+```
+    <p>
+        Explore our seasonal Italian, Greek and Turkish dishes.
+    </p>
+
+    {% for item in menu_items %}
+    <article>
+        <h2>{{ item.title }}</h2>
+        <p>Price: ₹{{ item.price }}</p>
+        <p>Available: {{ item.inventory }}</p>
+    </article>
+    {% empty %}
+    <p>No menu items are currently available.</p>
+    {% endfor %}
+</section>
+```
+
+</main>
+
+<footer>
+    <p>Copyright {{ current_year }} Little Lemon</p>
+</footer>
+
+</body>
+</html>
